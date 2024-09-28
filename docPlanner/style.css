@@ -1,0 +1,389 @@
+body{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    list-style-type: none;
+    text-decoration: none;
+    color: grey;
+    transition: 0s;
+}
+.sousmenu{
+    /*visibility: hidden;*/
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    top: 55px;
+    right: 28px;
+}
+.sous, ul.sousmenu:hover{
+    opacity: 1;
+    visibility: visible;
+}
+.link:hover{
+    color:rgb(42, 158, 133) ;
+}
+.logo{
+    margin-left: 15%;
+}
+.log{
+    width: 250px;
+}
+.nav{
+    margin-right: 10%;
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -6%;
+}
+li{
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*   ma premiere section  */
+
+
+.sect1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-size: 35px;
+    color: rgb(42, 158, 133);
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    color: grey;
+}
+.p2{
+    line-height: 25px;
+}
+.p3{
+    line-height: 25px;
+}
+
+/*  deuxieme section  */
+
+.sect2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div2{
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 300px;
+    height: 95%;
+    border-radius: 3%;
+    background-color:rgb(91, 202, 178) ;
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+    width: 300px;
+    height: 95%;
+    border-radius: 3%;
+    background-color:rgb(62, 62, 235);
+    display: flex;
+    flex-direction: column;
+}
+.card3{
+    width: 300px;
+    height:95%;
+    border-radius: 3%;
+    background-color:rgb(2, 2, 19) ;
+    display: flex;
+    flex-direction: column;
+}
+.h2card{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+.pcard{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 50;
+}
+.select{
+    width: 150px;
+    background-color:rgb(91, 202, 178) ;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.select1{
+    width: 150px;
+    background-color:rgb(62, 62, 235) ;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.select2{
+    width: 210px;
+    background-color:rgb(2, 2, 19) ;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* troisieme section  */  
+
+.sect3{
+    width: 100%;
+    height:40vh;
+    display: flex;
+    justify-content: space-around;
+}
+.p4{
+    color: rgb(91, 202, 178);
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 7%;
+}
+.divlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.lo5{
+    width: 120px;
+    height: 22px;
+}
+.ranglogo1{
+    display: flex;
+    justify-content: space-between;
+}
+.ranglogo2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* quatrieme section  */ 
+
+.sect4{
+    width: 100%;
+    height: 95vh;
+    background-color:rgb(201, 240, 231) ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.imgcut{
+    width: 450px;
+    height:600px;
+}
+.div41{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.h12{
+    font-size: 37px;
+    color: rgb(42, 158, 133);
+    font-weight: lighter;
+    list-style-type: none;
+    text-decoration: none;
+}
+.p5{
+    color: black;
+    font-size: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.divsect42{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.premiercard, .deuxiemecard,.troisiemecard,.quatriemecard{
+    width: 200px;
+    height: 225px;
+    background-color: white;
+    border-radius: 5px;
+}
+.divsep{
+    display: flex;
+    justify-content: space-between;
+}
+.premiercard{
+    margin-top: 5%;
+}
+.deuxiemecard{
+    margin-right: -7%;
+    margin-top: 15%;
+}
+.troisiemecard{
+    margin-bottom: 13%;
+}
+.quatriemecard{
+    margin-top: 10%;
+    margin-right: -7%;
+}
+.pcard1{
+    font-size: 25px;
+    color: rgb(42, 158, 133);
+    text-align: center;
+}
+.cardsecond{
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.pcard0{
+    font-size: 25px;
+    color: rgb(42, 158, 133);
+    text-align: center;
+}
+
+/* cinquieme section  */ 
+
+.sect5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.psect5{
+    color:rgb(42, 158, 133) ;
+    font-size: 35px;
+    text-align: center;
+}
+.psect51{
+    color: grey;
+    text-align: center;
+}
+
+/* sixieme section  */
+
+.sect6{
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.warsaw{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.warsaw:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.warsawimg{
+    width: 100%;
+    height:300px;
+}
+.bande{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rangpays{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pbande{
+    font-size: 15px;
+    color: grey;
+    margin-left: 10px;
+}
+.divbande{
+    height: 40px;
+    width: 125px;
+    background-color: rgb(86, 86, 184);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+/* septieme section  */
+
+.sect7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.psect7{
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10%;
+}
+.psect71{
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(86, 86, 184);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer  */
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pfooter1{
+    font-size: 13px;
+}
+.pfooter2{
+    color: grey;
+    font-size: 10px;
+}
